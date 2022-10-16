@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROCK paper Scissor</title>
-</head>
-<body>
-    <h2>Computer choice: <span id="computer-choice"></span></h2>
-    <h2>User choice: <span id="user-choice"></span></h2>
-    <h2>Result: <span id="result"></span></h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <div class="row">
+          <div class="col-2">
+            <h2>Bot's Play </h2>
+          </div>
+          <div class="col-2">
+            <h2>Your Play </span></h2>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <img src="" id="computer-choice" class="img" alt=" "></img>
+            </div>
+            <div class="col-2">
+                <img src="" id="user-choice" class="img" alt=" "></img>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-1">
+            <button id="rock" class="btn">ROCK</button>
+            <button id="paper" class="btn">PAPER</button>
+            <button id="scissor" class="btn">SCISSOR</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <h2><span id="result">Have your play!</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <button id="rock">ROCK</button>
-    <button id="paper">PAPER</button>
-    <button id="scissor">SCISSOR</button>
-    
-
-<script src="app.js"></script>
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>
